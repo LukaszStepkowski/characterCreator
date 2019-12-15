@@ -1,6 +1,6 @@
 package enums;
 
-public enum RaceTypes {
+public enum Races {
     HUMAN,
     ELF,
     DWARF,

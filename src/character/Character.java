@@ -1,6 +1,6 @@
 package character;
 
-import enums.RaceTypes;
+import enums.Races;
 import inventory.Item;
 
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
 public class Character {
 
     private String name;
-    private RaceTypes race;
+    private Races race;
     private Proffesion proffesion;
     private List<Statistics> startingStatistics;
     private List<Item> inventory;
