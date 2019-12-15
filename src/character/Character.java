@@ -9,8 +9,9 @@ public class Character {
 
     private String name;
     private Races race;
-    private Proffesion proffesion;
-    private List<Statistics> startingStatistics;
+    private Profession profession;
+    private Statistics startingStatistics;
+    private Statistics currentStatistics;
     private List<Item> inventory;
     private Appearance appearance;
     private List<Item> weaponsOnHand;

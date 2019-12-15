@@ -14,6 +14,8 @@ public class Appearance {
     private int numberOfSiblings;
     private String specialMark;
 
+    //probably going to have to change it to a builder design pattern
+
     public Appearance(int age, int weight, int height, Sexes sex, String eyeColor, String hairColor, String starSign, int numberOfSiblings, String specialMark) {
         this.age = age;
         this.weight = weight;
